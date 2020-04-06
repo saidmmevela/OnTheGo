@@ -1,0 +1,47 @@
+user={
+  id:id,
+  Names:String,
+  Phone_No:Number,
+  Email:String,
+}
+order={
+    id:id,
+    User_id:id,
+    day:String,
+    date:String,
+    month:String,
+    time:String,
+    location:String,
+    delivery_cost:String,
+    driver:id,
+}
+product_order={
+    id:id,
+    product_name:String,
+    order_id:id,
+    price:Number,
+    quatity:Number,
+}
+driver={
+  id:id,
+  name:String,
+  Phone_No:Number,
+}
+shop={
+  id:id,
+  name:String,
+  Phone_No:Number,
+}
+Product={
+  id:id,
+  name:String,
+  category:String,
+  shop_id:id,
+  price:Number,
+  image:String,
+}
+category={
+  id:id,
+  name:String,
+}
+
